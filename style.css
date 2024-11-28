@@ -256,7 +256,7 @@ section{
     width: 150px; /* Adjust size as needed */
     height: 150px; /* Maintain square aspect ratio */
     object-fit: cover;
-    border-radius: 50%; /* Circular image */
+    border-radius: 75%; /* Circular image */
     border: 5px solid #00aeff; /* Optional border */
 }
 
