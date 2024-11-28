@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herr Ahmed Tarek</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <!-- Add the favicon -->
+    <link rel="icon" type="image/jpg" href="Herr_tarek.jpg">
+    <!-- Add Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#" class="logo"><span>Herr Tarek</span></a>
+
+        <ul class="nav_links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Videos">Videos</a></li>
+            <li><a href="#comments">Comments</a></li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <a href="https://www.youtube.com/@HerrAhmedTarek" target="_blank">
+            <button class="Visit-btn">Visit YouTube</button>
+        </a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="Herr_tarek.jpg" alt="">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Herr Ahmed Tarek</h1>
+                    <span>German Language Teacher</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Contact</div>
+                </div>
+                <div class="socials">
+                    <a href="https://www.youtube.com/@HerrAhmedTarek" target="_blank" class="social-link">
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                    <a href="https://www.facebook.com/people/Ahmed-Tarek/100082215154369/" target="_blank" class="social-link">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="Experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+        <!-- Teacher's Picture -->
+        <div class="teacher-picture">
+            <img src="herr_tarek.jpg" alt="Herr Tarek - German Language Teacher" />
+        </div>
+    
+        <!-- Experience Cards -->
+        <div class="experience-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <i class="fa-solid fa-chalkboard-teacher"></i>
+                <h3>Teaching German</h3>
+                <p>Teaching German to students of all levels.</p>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="card">
+                <i class="fa-solid fa-book"></i>
+                <h3>Course Author</h3>
+                <p>Created comprehensive courses to make learning German engaging and easy.</p>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="card">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Online Workshops</h3>
+                <p>Hosted international workshops to help students connect globally.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="Videos" class="videos">
+        <h2 class="section-title">Latest Video</h2>
+        <div class="video-card">
+            <!-- Video Thumbnail Button -->
+            <a href="https://www.youtube.com/@HerrAhmedTarek" target="_blank" class="video-button">
+                <img src="Capture.PNG" alt="Latest Video Thumbnail" class="video-thumbnail">
+                <div class="play-button">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </a>
+            <!-- Video Details -->
+            <div class="video-info">
+                <h3>Learn German Basics</h3>
+                <p>Explore the fundamentals of German with Herr Tarek in this comprehensive and engaging video.</p>
+                <a href="https://www.youtube.com/@HerrAhmedTarek" target="_blank" class="btn">More Videos</a>
+            </div>
+        </div>
+    </section>
+    
+<!-- Feedback Section -->
+<section id="comments" class="feedback">
+    <h2 class="section-title">What People Say</h2>
+    <div class="feedback-container">
+        <div class="feedback-card" id="dynamic-feedback">
+            <img src="pic/user.jpg" alt="User Picture" class="feedback-avatar" id="feedback-avatar">
+            <h3 id="feedback-name">Mohamed23ascae</h3>
+            <p id="feedback-text">"شكرا يا مستر"</p>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
