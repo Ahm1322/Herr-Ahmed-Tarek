@@ -647,3 +647,27 @@ section{
     text-align: center; /* Center-align the content */
     padding: 20px;
 }
+
+
+
+/* Footer Styling */
+.footer {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* White text */
+    text-align: center; /* Center align text */
+    padding: 15px 0; /* Padding for spacing */
+    font-size: 14px; /* Font size */
+    border-top: 2px solid #444; /* Subtle top border */
+    margin-top: 30px; /* Spacing from other content */
+}
+
+/* Add hover effect for links in the footer if any */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
